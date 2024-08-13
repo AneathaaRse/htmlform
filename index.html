@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+     
+</head>
+<body>
+
+    <h1>Personal Information Form</h1>
+
+    <form>
+       
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            
+            <label for="fatherName">Father Name:</label>
+            <input type="text" id="fatherName" name="fatherName" placeholder="Enter your fathername" required><br><br>
+            
+            <label>Marital Status:</label>
+            <input type="radio" id="single" name="maritalStatus" value="single" >
+            <label for="single">Single</label>
+            <input type="radio" id="married" name="maritalStatus" value="married">
+            <label for="married">Married</label><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" placeholder="Enter your date of birh" required><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="abcdefgh@gmail.com" required><br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+            
+            <label>Languages Known:</label>
+            <input type="checkbox" id="english" name="languages" value="English">
+            <label for="english">English</label>
+            <input type="checkbox" id="hindi" name="languages" value="Hindi">
+            <label for="hindi">Hindi</label>
+            <input type="checkbox" id="tamil" name="languages" value="Tamil">
+            <label for="tamil">Tamil</label><br><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="reading" name="hobbies" value="Reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+            <label for="traveling">Traveling</label>
+            <input type="checkbox" id="sports" name="hobbies" value="Sports">
+            <label for="sports">Sports</label>
+        </fieldset>
+
+       
+        <fieldset>
+            <legend>Education</legend>
+            <input type="checkbox" id="highschool" name="education" value="High School">
+            <label for="highschool">High School</label>
+            <input type="checkbox" id="bachelor" name="education" value="Bachelor's Degree">
+            <label for="bachelor">Bachelor's Degree</label>
+            <input type="checkbox" id="master" name="education" value="Master's Degree">
+            <label for="master">Master's Degree</label>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="javascript" name="skills" value="javascript">
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" id="react" name="skills" value="react">
+            <label for="react">React</label>
+            <input type="checkbox" id="nodejs" name="skills" value="nodejs">
+            <label for="nodejs">Nodejs</label>
+            <input type="checkbox" id="mysql" name="skills" value="mysql">
+            <label for="mysql">Mysql</label>
+            <input type="checkbox" id="html&css" name="skills" value="html&css">
+            <label for="html&css">HTML&CSS</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Favorite Food</strong></legend>
+            <p>
+                <label for="food">Favorite Food</label>
+                <select name="food" id="food">
+                    <optgroup label="Tiffen">
+                        <option value="Idly">Idly</option>
+                        <option value="GheeDosa">GheeDosa</option>
+                        <option value="Pongal&vada">Pongal&vada</option>
+                        <option value="Mini-tiffen">Mini-tiffen</option>
+                    </optgroup>
+                    <optgroup label="Lunch">
+                        <option value="Veg-meals">Veg-meals</option>
+                        <option value="Non-veg meals">Non-veg meals</option>
+                        <option value="Seafood meals">Seafood meals</option>
+                    </optgroup>
+                    <optgroup label="Dinner">
+                        <option value="Veg pulao">Veg pulao</option>
+                        <option value="Chappathi">Chappathi</option>
+                        <option value="Poori">Poori</option>
+                        <option value="parotta"></option>
+                    </optgroup>
+                </select>
+            </p>
+            <h3>Favorite Meal</h3>
+            <input type="radio" id="favBreakfast" name="favoriteMeal" value="Breakfast">
+            <label for="favBreakfast">Breakfast</label>
+            <input type="radio" id="favLunch" name="favoriteMeal" value="Lunch">
+            <label for="favLunch">Lunch</label>
+            <input type="radio" id="favDinner" name="favoriteMeal" value="Dinner">
+            <label for="favDinner">Dinner</label><br><br>
+            
+           
+
+
+       
+       
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        
+    </form>
+
+</body>
+</html>
